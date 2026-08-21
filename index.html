@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Matheus de Souza Silva — Desenvolvedor Front-end.">
+  <title>Matheus.dev | Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Matheus.dev - início">
+        <span class="brand__mark">M.</span>
+        <span>Matheus<span class="brand__dot">.dev</span></span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu">
+        <i class="uil uil-bars"></i>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <button class="nav__close" id="nav-close" aria-label="Fechar menu">
+          <i class="uil uil-times"></i>
+        </button>
+
+       <a class="nav__link active" href="#home">Início</a>
+        <a class="nav__link" href="#about">Sobre</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#qualification">Qualificações</a>
+        <a class="nav__link" href="#projects">Projetos</a>
+        <a class="nav__link" href="#contact">Contato</a>
+      </div>
+
+      <div class="nav__actions">
+        <button class="icon-button" id="theme-toggle" aria-label="Alternar tema">
+          <i class="uil uil-moon"></i>
+        </button>
+       <a class="button button--outline button--small" href="curriculo-Matheus.pdf" download="curriculo-Matheus.pdf"></a>
+          Baixar CV <i class="uil uil-download-alt"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <span class="eyebrow"><i class="uil uil-brackets-curly"></i> Desenvolvedor Front-end</span>
+
+          <h1>Olá, eu sou<br><span>Matheus de Souza Silva</span></h1>
+
+          <p class="hero__description">
+            Desenvolvedor Front-end apaixonado por criar interfaces modernas,
+            responsivas e funcionais. Transformo ideias em experiências digitais.
+          </p>
+
+          <div class="hero__buttons">
+            <a class="button" href="#projects">
+              Ver projetos <i class="uil uil-arrow-right"></i>
+            </a>
+            <a class="button button--ghost" href="curriculo-Matheus.pdf" download>
+              Baixar CV <i class="uil uil-download-alt"></i>
+            </a>
+          </div>
+
+          <div class="socials">
+            <span>Me encontre em:</span>
+            <a href="https://www.linkedin.com/in/matheus-de-souza-silva-288194229/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="uil uil-github"></i>
+            </a>
+            <a href="mailto:matheussouzasilva628@gmail.com" aria-label="E-mail">
+              <i class="uil uil-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__ring"></div>
+          <div class="hero__dots"></div>
+
+          <div class="profile">
+            <div class="profile">
+  <img class="profile__photo" src="img/minha-foto.jpg.webp" alt="Foto de Matheus de Souza">
+            </div>
+          </div>
+
+          <div class="availability-card">
+            <span class="status-dot"></span>
+            <strong>Disponível para<br>novos projetos</strong>
+            <small>Vamos conversar!</small>
+            <a href="#contact" aria-label="Ir para contato"><i class="uil uil-message"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="about">
+      <div class="container panel about">
+        <div class="about__main reveal">
+          <div class="section-heading section-heading--left">
+            <span class="section-icon"><i class="uil uil-user"></i></span>
+            <div>
+              <h2>Sobre mim</h2>
+              <p>Um pouco sobre minha jornada</p>
+            </div>
+          </div>
+
+          <p class="about__text">
+            Olá meu nome é Matheus, desenvolvedor Front-end com foco em
+            construir aplicações web modernas e responsivas. Tenho conhecimentos
+            em HTML, CSS, JavaScript,React e MySQL e estou sempre buscando aprender
+            novas tecnologias e melhorar minhas habilidades.
+          </p>
+
+          <div class="about__facts">
+            <div><i class="uil uil-calendar-alt"></i><span>Desenvolvimento Web</span></div>
+            <div><i class="uil uil-map-marker"></i><span>Cordeiro - RJ</span></div>
+            <div><i class="uil uil-graduation-cap"></i><span>Sistemas para Internet</span></div>
+          </div>
+        </div>
+
+        <div class="about__highlights reveal">
+          <article>
+            <span><i class="uil uil-focus-target"></i></span>
+            <div><b>Foco</b><p>Interfaces com boa experiência, desempenho e responsividade.</p></div>
+          </article>
+          <article>
+            <span><i class="uil uil-briefcase"></i></span>
+            <div><b>Experiência</b><p>Projetos pessoais e estudos constantes para evoluir cada dia mais.</p></div>
+          </article>
+          <article>
+            <span><i class="uil uil-rocket"></i></span>
+            <div><b>Objetivo</b><p>Atuar em projetos desafiadores e continuar crescendo como desenvolvedor.</p></div>
+          </article>
+          <article>
+            <span><i class="uil uil-clock"></i></span>
+            <div><b>Disponibilidade</b><p>Aberto a novas oportunidades e projetos.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container panel">
+        <div class="section-heading">
+          <span class="section-icon"><i class="uil uil-brackets-curly"></i></span>
+          <div>
+            <h2>Skills & Tecnologias</h2>
+            <p>Sempre aprendendo mais <span class="live-dot"></span></p>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card"><div class="tech-logo tech-logo--html">5</div><h3>HTML5</h3><span>Avançado</span><div class="skill-bar"><i style="width:88%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--css">3</div><h3>CSS3</h3><span>Avançado</span><div class="skill-bar"><i style="width:86%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--js">JS</div><h3>JavaScript</h3><span>Intermediário</span><div class="skill-bar"><i style="width:80%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--react"><i class="uil uil-react"></i></div><h3>React</h3><span>Intermediário</span><div class="skill-bar"><i style="width:68%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--ts">TS</div><h3>TypeScript</h3><span>Intermediário</span><div class="skill-bar"><i style="width:65%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--bootstrap">B</div><h3>Bootstrap</h3><span>Avançado</span><div class="skill-bar"><i style="width:82%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--git"><i class="uil uil-github"></i></div><h3>Git</h3><span>Avançado</span><div class="skill-bar"><i style="width:78%"></i></div></article>
+          <article class="skill-card"><div class="tech-logo tech-logo--sql"><i class="uil uil-database"></i></div><h3>MySQL</h3><span>Intermediário</span><div class="skill-bar"><i style="width:62%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section" id="projects">
+      <div class="container panel">
+        <div class="section-heading">
+          <span class="section-icon"><i class="uil uil-folder-open"></i></span>
+          <div>
+            <h2>Projetos em destaque</h2>
+            <p>Alguns dos meus trabalhos</p>
+          </div>
+          <a class="section-link" href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener">
+            Ver todos no GitHub <i class="uil uil-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-image--finance">
+              <div class="fake-window">
+                <span></span><span></span><span></span>
+                <div class="fake-chart"></div>
+                <div class="fake-table"><i></i><i></i><i></i><i></i></div>
+              </div>
+              <a href="https://financereact.netlify.app/" target="_blank" rel="noopener" class="project-open"><i class="uil uil-external-link-alt"></i></a>
+            </div>
+            <div class="project-body">
+              <h3>Controle Financeiro</h3>
+              <p>Aplicação para controle de entradas, saídas e saldo financeiro.</p>
+              <div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>React</span></div>
+              <div class="project-links">
+                <a href="https://financereact.netlify.app/" target="_blank" rel="noopener"><i class="uil uil-external-link-alt"></i> Demo</a>
+                <a href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener"><i class="uil uil-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--weather">
+              <div class="weather-ui">
+                <span>☀️</span><strong>24°C</strong><small>Cordeiro, RJ</small>
+                <div><b>☀️</b><b>☀️</b><b>🌤️</b><b>🌧️</b><b>☀️</b></div>
+              </div>
+              <a href="https://weather-app-sage-psi.vercel.app/" target="_blank" rel="noopener" class="project-open"><i class="uil uil-external-link-alt"></i></a>
+            </div>
+            <div class="project-body">
+              <h3>Weather App</h3>
+              <p>Aplicação de previsão do tempo consumindo uma API de clima.</p>
+              <div class="tags"><span>JavaScript</span><span>API</span><span>CSS</span><span>React</span></div>
+              <div class="project-links">
+                <a href="https://weather-app-sage-psi.vercel.app/" target="_blank" rel="noopener"><i class="uil uil-external-link-alt"></i> Demo</a>
+                <a href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener"><i class="uil uil-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image project-image--coffee">
+              <div class="coffee-ui">
+                <small>Bom café</small>
+                <strong>transforma o dia!</strong>
+                <span>☕</span>
+              </div>
+              <a href="https://matheusdesouzasilva70.github.io/Website-Cafeteria/" target="_blank" rel="noopener" class="project-open"><i class="uil uil-external-link-alt"></i></a>
+            </div>
+            <div class="project-body">
+              <h3>God of War Ragnarok</h3>
+              <p>
+Site anunciando o novo lançamento do jogo God of War.
+.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="https://matheusdesouzasilva70.github.io/Website-Cafeteria/" target="_blank" rel="noopener"><i class="uil uil-external-link-alt"></i> Demo</a>
+                <a href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener"><i class="uil uil-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUALIFICAÇÕES -->
+    <section class="section" id="qualification">
+      <div class="container panel">
+        <div class="section-heading">
+          <span class="section-icon"><i class="uil uil-graduation-cap"></i></span>
+          <div>
+            <h2>Qualificações</h2>
+            <p>Minha jornada de formação</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3>Técnico em Sistemas para Internet</h3>
+            <p>UniCesumar</p>
+            <small>2023—2025</small>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3> Conceitos básicos de programação em Front-End </h3>
+            <p> Dio-me  </p>
+            <small> 2021-2022</small>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3>Conceitos básicos de programação em Back-End </h3>
+            <p>Dio-me</p>
+            <small> 2021-2022</small>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3>  </h3>
+            <p>  </p>
+            <small>   </small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contact">
+      <div class="container panel contact">
+        <div class="contact__intro">
+          <span class="section-icon"><i class="uil uil-message"></i></span>
+          <div>
+            <h2>Vamos conversar?</h2>
+            <p>Estou disponível para novos projetos e oportunidades.</p>
+          </div>
+        </div>
+
+        <div class="contact__cards">
+          <a href="https://www.linkedin.com/in/matheus-de-souza-silva-288194229/" target="_blank" rel="noopener" class="contact-card">
+            <i class="uil uil-linkedin-alt"></i><span><b>LinkedIn</b><small>/matheus-de-souza-silva</small></span>
+          </a>
+          <a href="https://github.com/MatheusdeSouzaSilva70" target="_blank" rel="noopener" class="contact-card">
+            <i class="uil uil-github"></i><span><b>GitHub</b><small>/MatheusdeSouzaSilva70</small></span>
+          </a>
+          <a href="mailto:matheussouzasilva628@gmail.com" class="contact-card">
+            <i class="uil uil-envelope"></i><span><b>E-mail</b><small>matheussouzasilva628@gmail.com</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Matheus.dev — Todos os direitos reservados.</span>
+      <span>Desenvolvido com <i class="uil uil-heart"></i> por Matheus de Souza Silva</span>
+    </div>
+  </footer>
+
+  <button class="back-top" id="back-top" aria-label="Voltar ao topo">
+    <i class="uil uil-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
